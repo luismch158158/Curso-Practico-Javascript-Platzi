@@ -106,3 +106,55 @@ function calcularAreaCirculo(){
     const area = areaCirculo(value);
     alert(area);
 }
+
+// RETO TRIANGULO ISÓSCELES
+
+function alturaTriangulo (lado1,lado2,base){
+    const a = Number(lado1);
+    const b = Number(lado2);
+    const c = Number(base);
+    if (a==c && b!=a){
+        if(b/2 >= a){
+            alert ("Lados son inconsistentes procura darle mas longitud a los lados iguales");
+        }
+        else{
+            const altura1 = Math.sqrt((c**2)-((b/2)**2));
+            alert(altura1);
+        }
+    }
+    else if (b==a && c!=b){
+        if(c/2 >= a){
+            alert ("Lados son inconsistentes procura darle mas longitud a los lados iguales");
+        }
+        else{
+            const altura2 = Math.sqrt((b**2)-((c/2)**2));
+            alert(altura2);
+        }
+    }
+    else if (b==c && a!=b){
+        if(a/2 >= b){
+            alert ("Lados son inconsistentes procura darle mas longitud a los lados iguales");
+        }
+        else{
+            const altura2 = Math.sqrt((c**2)-((a/2)**2));
+            alert(altura2);
+        }
+    }
+    else {
+        alert ("No es isósceles, vuele a introducir números");
+    }
+};
+
+function calcularAlturaTriangulo(){
+    const input1 = document.getElementById("InputTrianguloIsosceles1");
+    const value1 = input1.value;
+
+    const input2 = document.getElementById("InputTrianguloIsosceles2");
+    const value2 = input2.value;
+
+    const input3 = document.getElementById("InputTrianguloIsosceles3");
+    const value3 = input3.value;
+
+    const altura = alturaTriangulo(value1,value2,value3);
+    alert(altura);
+}
