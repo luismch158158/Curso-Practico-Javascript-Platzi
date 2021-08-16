@@ -9,3 +9,10 @@ Applying Javascript in a practical way
 - Segundo paso: implementar fórmulas en Javascript
 - Tercer paso: crear funciones
 - Cuarto paso: integrar Javascript con HTML
+
+## Taller #2: Porcentajes y Descuentos
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar fórmulas en Javascript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar Javascript con HTML
