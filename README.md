@@ -17,7 +17,14 @@ Applying Javascript in a practical way
 - Tercer paso: crear funciones
 - Cuarto paso: integrar Javascript con HTML
 
-## Taller #2: Promedio, mediana y moda
+## Taller #3: Promedio, mediana y moda
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar fórmulas en Javascript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar Javascript con HTML
+
+## Taller #4: Cálculo de Análisis Salarial
 
 - Primer paso: definir las fórmulas
 - Segundo paso: implementar fórmulas en Javascript
